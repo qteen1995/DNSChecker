@@ -317,9 +317,12 @@ dnschecker/
 ├── selftest.py       协议层自检
 ├── test_tcp_rcode.py TCP 通道 + 汉字响应码 + 「可用/不可用」验证
 ├── test_http_probe.py 三级探测 / 重试 / 判定 / 推荐取舍验证
+├── test_fixes.py     A/AAAA 合并、DoT 基准源、推荐 IP 的 IPv4 优先验证
 ├── test_hosts_flush.py hosts 写入/还原后刷新 DNS 缓存（全程在临时文件上跑）
 ├── e2e_test.py       端到端真实验证
 ├── verify_ui.py      界面结构 / 性能 / 实时刷新 / 按钮三态 / 通道矩阵 / 图标绘制 / 顶栏排版
+├── verify_exe.py     启动打包好的 exe，确认它能稳定驻留、不崩溃
+├── make_shots.py     对源码运行的界面截图（生成 demo_*.png）
 └── shot_exe.py       对**打包好的 exe** 截图（证明交付物里图标等确实在）
 ```
 
