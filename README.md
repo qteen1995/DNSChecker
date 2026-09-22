@@ -29,7 +29,7 @@ pip install pyinstaller
 python build.py
 ```
 
-产出 `dist/DNSChecker.exe`（单文件，约 12 MB，双击即用、不依赖 Python 环境）。
+产出 `dist/DNSChecker.exe`（单文件，约 11 MB，双击即用、不依赖 Python 环境）。
 
 ---
 
